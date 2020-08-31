@@ -4,7 +4,8 @@ module.exports = ({ env }) => ({
     default: {
       connector: 'mongoose',
       settings: {
-        uri: env('DATABASE_URI'),
+        uri: `${process.env.DATABASE_URI}`,
+        database: `${process.env.DATABASE_NAME}`
       },
       options: {
         useNullAsDefault: true,
