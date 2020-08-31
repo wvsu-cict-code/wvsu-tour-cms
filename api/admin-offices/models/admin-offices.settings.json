@@ -1,0 +1,48 @@
+{
+  "kind": "collectionType",
+  "collectionName": "admin_offices",
+  "info": {
+    "name": "Admin Offices"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "DateAdded": {
+      "type": "datetime"
+    },
+    "Description": {
+      "type": "text"
+    },
+    "FeaturedImage": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "FullDescription": {
+      "type": "text"
+    },
+    "Campus": {
+      "type": "enumeration",
+      "enum": [
+        "main",
+        "janiuay",
+        "lambunao",
+        "pototan",
+        "himamaylan",
+        "caf",
+        "calinog"
+      ]
+    }
+  }
+}

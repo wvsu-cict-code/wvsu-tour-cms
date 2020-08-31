@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "school_organizations",
+  "info": {
+    "name": "School Organizations"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "Logo": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "Description": {
+      "type": "text"
+    }
+  }
+}

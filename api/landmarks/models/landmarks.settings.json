@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "landmarks",
+  "info": {
+    "name": "Landmarks"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "Location": {
+      "type": "string"
+    },
+    "FeaturedImage": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "DateAdded": {
+      "type": "datetime"
+    }
+  }
+}

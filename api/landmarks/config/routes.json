@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/landmarks",
+      "handler": "landmarks.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/landmarks/count",
+      "handler": "landmarks.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/landmarks/:id",
+      "handler": "landmarks.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/landmarks",
+      "handler": "landmarks.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/landmarks/:id",
+      "handler": "landmarks.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/landmarks/:id",
+      "handler": "landmarks.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

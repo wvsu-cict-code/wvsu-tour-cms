@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/office-staffs",
+      "handler": "office-staff.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/office-staffs/count",
+      "handler": "office-staff.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/office-staffs/:id",
+      "handler": "office-staff.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/office-staffs",
+      "handler": "office-staff.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/office-staffs/:id",
+      "handler": "office-staff.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/office-staffs/:id",
+      "handler": "office-staff.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
