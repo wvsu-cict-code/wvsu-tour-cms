@@ -1,2 +1,3 @@
-# wvsu-tour-cms
-Content Management System for WVSU Campus Tour App using Strapi
+# Strapi application
+
+A quick description of your strapi application
