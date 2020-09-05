@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/campus-lives",
+      "handler": "campus-life.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/campus-lives/count",
+      "handler": "campus-life.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/campus-lives/:id",
+      "handler": "campus-life.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/campus-lives",
+      "handler": "campus-life.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/campus-lives/:id",
+      "handler": "campus-life.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/campus-lives/:id",
+      "handler": "campus-life.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

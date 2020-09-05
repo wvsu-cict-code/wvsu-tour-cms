@@ -1,8 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "landmarks",
+  "collectionName": "messages",
   "info": {
-    "name": "Historical and Artistic Landmarks"
+    "name": "Messages"
   },
   "options": {
     "increments": true,
@@ -12,7 +12,7 @@
     "Name": {
       "type": "string"
     },
-    "Location": {
+    "Description": {
       "type": "string"
     },
     "FeaturedImage": {
@@ -26,14 +26,8 @@
       "plugin": "upload",
       "required": false
     },
-    "DateAdded": {
-      "type": "datetime"
-    },
-    "Latitude": {
-      "type": "float"
-    },
-    "Longitude": {
-      "type": "float"
+    "MessageBody": {
+      "type": "richtext"
     }
   }
 }

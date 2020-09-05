@@ -1,21 +1,18 @@
 {
   "kind": "collectionType",
-  "collectionName": "landmarks",
+  "collectionName": "campus_lives",
   "info": {
-    "name": "Historical and Artistic Landmarks"
+    "name": "Campus Life"
   },
   "options": {
     "increments": true,
     "timestamps": true
   },
   "attributes": {
-    "Name": {
+    "ShortDescription": {
       "type": "string"
     },
-    "Location": {
-      "type": "string"
-    },
-    "FeaturedImage": {
+    "Image": {
       "model": "file",
       "via": "related",
       "allowedTypes": [
@@ -25,15 +22,6 @@
       ],
       "plugin": "upload",
       "required": false
-    },
-    "DateAdded": {
-      "type": "datetime"
-    },
-    "Latitude": {
-      "type": "float"
-    },
-    "Longitude": {
-      "type": "float"
     }
   }
 }

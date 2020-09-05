@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/facilities-and-amenities",
+      "handler": "facilities-and-amenities.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/facilities-and-amenities/count",
+      "handler": "facilities-and-amenities.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/facilities-and-amenities/:id",
+      "handler": "facilities-and-amenities.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/facilities-and-amenities",
+      "handler": "facilities-and-amenities.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/facilities-and-amenities/:id",
+      "handler": "facilities-and-amenities.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/facilities-and-amenities/:id",
+      "handler": "facilities-and-amenities.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

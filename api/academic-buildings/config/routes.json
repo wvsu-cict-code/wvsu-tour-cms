@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/academic-buildings",
+      "handler": "academic-buildings.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/academic-buildings/count",
+      "handler": "academic-buildings.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/academic-buildings/:id",
+      "handler": "academic-buildings.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/academic-buildings",
+      "handler": "academic-buildings.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/academic-buildings/:id",
+      "handler": "academic-buildings.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/academic-buildings/:id",
+      "handler": "academic-buildings.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

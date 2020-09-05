@@ -1,8 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "admin_offices",
+  "collectionName": "facilities_and_amenities",
   "info": {
-    "name": "Admin Buildings"
+    "name": "Facilities and Amenities"
   },
   "options": {
     "increments": true,
@@ -12,11 +12,8 @@
     "Name": {
       "type": "string"
     },
-    "DateAdded": {
-      "type": "datetime"
-    },
-    "Description": {
-      "type": "text"
+    "ShortDescription": {
+      "type": "string"
     },
     "FeaturedImage": {
       "model": "file",
@@ -29,25 +26,13 @@
       "plugin": "upload",
       "required": false
     },
-    "FullDescription": {
-      "type": "text"
-    },
-    "Campus": {
-      "type": "enumeration",
-      "enum": [
-        "main",
-        "janiuay",
-        "lambunao",
-        "pototan",
-        "himamaylan",
-        "caf",
-        "calinog"
-      ]
-    },
-    "Longitude": {
-      "type": "float"
+    "DateAdded": {
+      "type": "datetime"
     },
     "Latitude": {
+      "type": "float"
+    },
+    "Longitude": {
       "type": "float"
     }
   }

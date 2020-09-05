@@ -65,6 +65,12 @@
       ],
       "plugin": "upload",
       "required": false
+    },
+    "Latitude": {
+      "type": "float"
+    },
+    "Longitude": {
+      "type": "float"
     }
   }
 }
