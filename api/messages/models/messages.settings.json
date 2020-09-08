@@ -28,6 +28,9 @@
     },
     "MessageBody": {
       "type": "richtext"
+    },
+    "SortOrder": {
+      "type": "integer"
     }
   }
 }

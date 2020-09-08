@@ -22,6 +22,12 @@
       ],
       "plugin": "upload",
       "required": false
+    },
+    "Description": {
+      "type": "string"
+    },
+    "SortOrder": {
+      "type": "integer"
     }
   }
 }

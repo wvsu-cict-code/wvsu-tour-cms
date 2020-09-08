@@ -25,6 +25,9 @@
     },
     "Description": {
       "type": "text"
+    },
+    "SortOrder": {
+      "type": "integer"
     }
   }
 }

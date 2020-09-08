@@ -48,6 +48,9 @@
     },
     "Longitude": {
       "type": "float"
+    },
+    "SortOrder": {
+      "type": "integer"
     }
   }
 }

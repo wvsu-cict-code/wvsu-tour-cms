@@ -43,6 +43,9 @@
     },
     "DateAdded": {
       "type": "datetime"
+    },
+    "SortOrder": {
+      "type": "integer"
     }
   }
 }
