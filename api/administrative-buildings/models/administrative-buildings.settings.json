@@ -1,8 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "admin_offices",
+  "collectionName": "administrative_buildings",
   "info": {
-    "name": "Admin Buildings"
+    "name": "Administrative Buildings"
   },
   "options": {
     "increments": true,
@@ -11,12 +11,6 @@
   "attributes": {
     "Name": {
       "type": "string"
-    },
-    "DateAdded": {
-      "type": "datetime"
-    },
-    "Description": {
-      "type": "text"
     },
     "FeaturedImage": {
       "model": "file",
@@ -29,7 +23,7 @@
       "plugin": "upload",
       "required": false
     },
-    "FullDescription": {
+    "LongDescription": {
       "type": "text"
     },
     "Campus": {
@@ -41,17 +35,17 @@
         "pototan",
         "himamaylan",
         "caf",
-        "calinog"
+        "calino"
       ]
+    },
+    "DateAdded": {
+      "type": "datetime"
     },
     "Longitude": {
       "type": "float"
     },
     "Latitude": {
       "type": "float"
-    },
-    "SortOrder": {
-      "type": "integer"
     }
   }
 }
