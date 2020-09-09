@@ -40,7 +40,7 @@ module.exports = {
     async afterUpdate(data) {
       const doc = data._id
       strip_id(data)
-      const res = await strapi.firebaseDB.collection('campus_life').doc(JSON.stringify(doc)).update(data);
+      const res = await strapi.firebaseDB.collection('campus_life').doc(JSON.stringify(doc)).set(data);
     },
     async afterDelete(data) {
       const doc = data._id
