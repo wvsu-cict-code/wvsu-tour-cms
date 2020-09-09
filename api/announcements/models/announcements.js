@@ -13,8 +13,6 @@ function strip_id(data) {
 
   delete data.__v
 
-  delete data.created_by
-
   delete data.updated_by
 
   if(data.created_by){
