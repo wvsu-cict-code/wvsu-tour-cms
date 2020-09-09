@@ -112,3 +112,5 @@ license.txt
 exports
 .cache
 build
+
+config/functions/serviceapp.json

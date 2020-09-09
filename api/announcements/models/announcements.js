@@ -5,4 +5,44 @@
  * to customize this model
  */
 
-module.exports = {};
+ function strip_id(data) {
+
+  delete data._id
+
+  delete data.id
+
+  delete data.__v
+
+  delete data.created_by
+
+  delete data.updated_by
+
+  Object.keys(data).map(i => {
+    if (data[i]['_id']) {
+      delete data[i]['_id']
+      delete data[i]['created_by']
+      delete data[i]['updated_by']
+      delete data[i]['FeaturedImage']['_id']
+    }
+  })
+ }
+
+module.exports = {
+  lifecycles: {
+    async afterCreate(data) {
+      const doc = data._id
+      strip_id(data)
+      const res = await strapi.firebaseDB.collection('announcements').doc(JSON.stringify(doc)).set(data);
+    },
+    async afterUpdate(data) {
+      const doc = data._id
+      strip_id(data)
+      const res = await strapi.firebaseDB.collection('announcements').doc(JSON.stringify(doc)).update(data);
+    },
+    async afterDelete(data) {
+      const doc = data._id
+      strip_id(data)
+      const res = await strapi.firebaseDB.collection('announcements').doc(JSON.stringify(doc)).remove();
+    },
+  }
+};

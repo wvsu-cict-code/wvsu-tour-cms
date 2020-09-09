@@ -1,13 +1,29 @@
 'use strict';
 
-/**
- * An asynchronous bootstrap function that runs before
- * your application gets started.
- *
- * This gives you an opportunity to set up your data model,
- * run jobs, or perform some special logic.
- *
- * See more details here: https://strapi.io/documentation/v3.x/concepts/configurations.html#bootstrap
- */
+module.exports = () => {
 
-module.exports = () => {};
+  const io = require('socket.io')(strapi.server);
+  const admin = require('firebase-admin').default;
+
+
+  const serviceAccount = require('./serviceapp.json');
+
+  admin.initializeApp({
+    credential: admin.credential.cert(serviceAccount)
+  });
+
+  const firebaseDB = admin.firestore();
+
+  io.on('connection', function (socket) {
+
+    socket.emit('hello', JSON.stringify({
+      message: 'Hello data lover'
+    }));
+
+    socket.on('disconnect', () => console.log('a user disconnected'));
+  });
+
+  strapi.io = io;
+  strapi.firebaseDB = firebaseDB;
+
+};
