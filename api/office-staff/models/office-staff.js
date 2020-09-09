@@ -21,10 +21,15 @@ function strip_id(data) {
       delete data[i]['_id']
       delete data[i]['created_by']
       delete data[i]['updated_by']
-      delete data[i]['ProfilePicture']['_id']
+    }
+    if (data['ProfilePicture']) {
+      delete data['ProfilePicture']._id
+      delete data['ProfilePicture'].related
+      delete data['ProfilePicture'].created_by
+      delete data['ProfilePicture'].updated_by
     }
   })
- }
+}
 module.exports = {
   lifecycles: {
     async afterCreate(data) {

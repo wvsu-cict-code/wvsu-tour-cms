@@ -22,14 +22,15 @@ function strip_id(data) {
       delete data[i]['_id']
       delete data[i]['created_by']
       delete data[i]['updated_by']
-      if (data[i]['Image']) {
-        Object.keys(data[i]['Image']).map(j => {
-          delete data[i]['Image'][j]['_id']
-        })
-      }
+    }
+    if (data['Image']) {
+      delete data['Image'].id
+      delete data['Image'].related
+      delete data['Image'].created_by
+      delete data['Image'].updated_by
     }
   })
- }
+}
 module.exports = {
   lifecycles: {
     async afterCreate(data) {

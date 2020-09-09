@@ -21,7 +21,12 @@ function strip_id(data) {
       delete data[i]['_id']
       delete data[i]['created_by']
       delete data[i]['updated_by']
-      delete data[i]['ProfileImage']['_id']
+    }
+    if(data['ProfileImage']){
+      delete data['ProfileImage']._id
+      delete data['ProfileImage'].related
+      delete data['ProfileImage'].created_by
+      delete data['ProfileImage'].updated_by
     }
   })
  }

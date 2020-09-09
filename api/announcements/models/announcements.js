@@ -5,7 +5,7 @@
  * to customize this model
  */
 
- function strip_id(data) {
+function strip_id(data) {
 
   delete data._id
 
@@ -22,16 +22,23 @@
       delete data[i]['_id']
       delete data[i]['created_by']
       delete data[i]['updated_by']
-      delete data[i]['FeaturedImage']['_id']
+    }
+    if (data['FeaturedImage']) {
+      delete data['FeaturedImage']._id
+      delete data['FeaturedImage'].related
+      delete data['FeaturedImage'].created_by
+      delete data['FeaturedImage'].updated_by
     }
   })
- }
+}
 
 module.exports = {
   lifecycles: {
     async afterCreate(data) {
       const doc = data._id
+      console.log(data)
       strip_id(data)
+
       const res = await strapi.firebaseDB.collection('announcements').doc(JSON.stringify(doc)).set(data);
     },
     async afterUpdate(data) {
