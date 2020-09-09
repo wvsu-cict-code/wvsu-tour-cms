@@ -23,7 +23,7 @@ function strip_id(data) {
       delete data[i]['updated_by']
     }
 
-    if (delete data['Logo']) {
+    if (data['Logo']) {
       delete data['Logo']._id
       delete data['Logo'].related
       delete data['Logo'].created_by
