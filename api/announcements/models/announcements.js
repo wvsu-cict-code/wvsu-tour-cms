@@ -20,6 +20,7 @@ function strip_id(data) {
     delete data.created_by.__v
     delete data.created_by.id
     delete data.created_by.roles
+    delete data.created_by.password
   }
 
   Object.keys(data).map(i => {
