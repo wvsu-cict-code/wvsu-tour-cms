@@ -44,8 +44,7 @@ module.exports = {
     },
     async afterDelete(data) {
       const doc = data._id
-      strip_id(data)
-      const res = await strapi.firebaseDB.collection('messages').doc(JSON.stringify(doc)).remove();
+      const res = await strapi.firebaseDB.collection('messages').doc(JSON.stringify(doc)).delete();
     },
   }
 };
