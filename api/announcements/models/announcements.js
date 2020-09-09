@@ -17,12 +17,19 @@ function strip_id(data) {
 
   delete data.updated_by
 
+  if(data.created_by){
+    delete data.created_by._id
+    delete data.created_by.__v
+    delete data.created_by.id
+  }
+
   Object.keys(data).map(i => {
     if (data[i]['_id']) {
       delete data[i]['_id']
       delete data[i]['created_by']
       delete data[i]['updated_by']
     }
+
     if (data['FeaturedImage']) {
       delete data['FeaturedImage']._id
       delete data['FeaturedImage'].related
