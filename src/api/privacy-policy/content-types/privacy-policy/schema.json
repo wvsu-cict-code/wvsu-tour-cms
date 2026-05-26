@@ -2,7 +2,7 @@
   "kind": "singleType",
   "collectionName": "privacy_policies",
   "info": {
-    "singularName": "privacy-policy",
+    "singularName": "privacy-policy-page",
     "pluralName": "privacy-policy",
     "displayName": "Privacy Policy"
   },

@@ -2,7 +2,7 @@
   "kind": "collectionType",
   "collectionName": "colleges",
   "info": {
-    "singularName": "colleges",
+    "singularName": "college",
     "pluralName": "colleges",
     "displayName": "Colleges"
   },

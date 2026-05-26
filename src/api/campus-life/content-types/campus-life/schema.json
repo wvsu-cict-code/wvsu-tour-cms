@@ -2,7 +2,7 @@
   "kind": "collectionType",
   "collectionName": "campus_lives",
   "info": {
-    "singularName": "campus-life",
+    "singularName": "campus-life-item",
     "pluralName": "campus-life",
     "displayName": "Campus Life"
   },

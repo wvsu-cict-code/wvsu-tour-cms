@@ -2,7 +2,7 @@
   "kind": "collectionType",
   "collectionName": "office_staffs",
   "info": {
-    "singularName": "office-staff",
+    "singularName": "office-staff-member",
     "pluralName": "office-staff",
     "displayName": "Office Staff"
   },

@@ -2,7 +2,7 @@
   "kind": "collectionType",
   "collectionName": "announcements",
   "info": {
-    "singularName": "announcements",
+    "singularName": "announcement",
     "pluralName": "announcements",
     "displayName": "Announcements"
   },

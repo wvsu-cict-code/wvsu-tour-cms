@@ -2,7 +2,7 @@
   "kind": "collectionType",
   "collectionName": "head_offices",
   "info": {
-    "singularName": "head-offices",
+    "singularName": "head-office",
     "pluralName": "head-offices",
     "displayName": "Head Offices"
   },

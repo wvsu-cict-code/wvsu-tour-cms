@@ -2,7 +2,7 @@
   "kind": "collectionType",
   "collectionName": "school_organizations",
   "info": {
-    "singularName": "school-organization",
+    "singularName": "school-organization-item",
     "pluralName": "school-organization",
     "displayName": "School Organizations"
   },

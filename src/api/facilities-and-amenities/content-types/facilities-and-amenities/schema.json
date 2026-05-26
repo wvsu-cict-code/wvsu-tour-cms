@@ -2,7 +2,7 @@
   "kind": "collectionType",
   "collectionName": "facilities_and_amenities",
   "info": {
-    "singularName": "facilities-and-amenities",
+    "singularName": "facility-and-amenity",
     "pluralName": "facilities-and-amenities",
     "displayName": "Facilities and Amenities"
   },

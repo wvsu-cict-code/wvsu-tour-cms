@@ -2,7 +2,7 @@
   "kind": "collectionType",
   "collectionName": "volunteers",
   "info": {
-    "singularName": "volunteers",
+    "singularName": "volunteer",
     "pluralName": "volunteers",
     "displayName": "Volunteers"
   },
