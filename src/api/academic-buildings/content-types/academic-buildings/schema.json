@@ -2,7 +2,7 @@
   "kind": "collectionType",
   "collectionName": "academic_buildings",
   "info": {
-    "singularName": "academic-buildings",
+    "singularName": "academic-building",
     "pluralName": "academic-buildings",
     "displayName": "Academic Buildings"
   },
