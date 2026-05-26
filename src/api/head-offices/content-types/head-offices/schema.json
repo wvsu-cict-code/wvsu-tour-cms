@@ -2,8 +2,8 @@
   "kind": "collectionType",
   "collectionName": "head_offices",
   "info": {
-    "singularName": "head-office",
-    "pluralName": "head-offices",
+    "singularName": "head-offices",
+    "pluralName": "head-offices-list",
     "displayName": "Head Offices"
   },
   "options": {

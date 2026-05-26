@@ -2,8 +2,8 @@
   "kind": "collectionType",
   "collectionName": "office_staffs",
   "info": {
-    "singularName": "office-staff-member",
-    "pluralName": "office-staff",
+    "singularName": "office-staff",
+    "pluralName": "office-staff-list",
     "displayName": "Office Staff"
   },
   "options": {

@@ -2,8 +2,8 @@
   "kind": "collectionType",
   "collectionName": "colleges",
   "info": {
-    "singularName": "college",
-    "pluralName": "colleges",
+    "singularName": "colleges",
+    "pluralName": "colleges-list",
     "displayName": "Colleges"
   },
   "options": {

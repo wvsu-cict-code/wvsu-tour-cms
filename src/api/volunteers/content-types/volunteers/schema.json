@@ -2,8 +2,8 @@
   "kind": "collectionType",
   "collectionName": "volunteers",
   "info": {
-    "singularName": "volunteer",
-    "pluralName": "volunteers",
+    "singularName": "volunteers",
+    "pluralName": "volunteers-list",
     "displayName": "Volunteers"
   },
   "options": {

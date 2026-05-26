@@ -2,8 +2,8 @@
   "kind": "collectionType",
   "collectionName": "school_organizations",
   "info": {
-    "singularName": "school-organization-item",
-    "pluralName": "school-organization",
+    "singularName": "school-organization",
+    "pluralName": "school-organization-list",
     "displayName": "School Organizations"
   },
   "options": {

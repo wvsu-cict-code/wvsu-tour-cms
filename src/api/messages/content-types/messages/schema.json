@@ -2,8 +2,8 @@
   "kind": "collectionType",
   "collectionName": "messages",
   "info": {
-    "singularName": "message",
-    "pluralName": "messages",
+    "singularName": "messages",
+    "pluralName": "messages-list",
     "displayName": "Messages"
   },
   "options": {

@@ -2,8 +2,8 @@
   "kind": "collectionType",
   "collectionName": "announcements",
   "info": {
-    "singularName": "announcement",
-    "pluralName": "announcements",
+    "singularName": "announcements",
+    "pluralName": "announcements-list",
     "displayName": "Announcements"
   },
   "options": {

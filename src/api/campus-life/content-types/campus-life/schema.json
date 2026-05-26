@@ -2,8 +2,8 @@
   "kind": "collectionType",
   "collectionName": "campus_lives",
   "info": {
-    "singularName": "campus-life-item",
-    "pluralName": "campus-life",
+    "singularName": "campus-life",
+    "pluralName": "campus-life-list",
     "displayName": "Campus Life"
   },
   "options": {

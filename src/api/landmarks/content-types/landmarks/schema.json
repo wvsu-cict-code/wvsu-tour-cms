@@ -2,8 +2,8 @@
   "kind": "collectionType",
   "collectionName": "landmarks",
   "info": {
-    "singularName": "landmark",
-    "pluralName": "landmarks",
+    "singularName": "landmarks",
+    "pluralName": "landmarks-list",
     "displayName": "Historical and Artistic Landmarks"
   },
   "options": {

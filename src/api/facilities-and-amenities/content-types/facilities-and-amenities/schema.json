@@ -2,8 +2,8 @@
   "kind": "collectionType",
   "collectionName": "facilities_and_amenities",
   "info": {
-    "singularName": "facility-and-amenity",
-    "pluralName": "facilities-and-amenities",
+    "singularName": "facilities-and-amenities",
+    "pluralName": "facilities-and-amenities-list",
     "displayName": "Facilities and Amenities"
   },
   "options": {

@@ -2,8 +2,8 @@
   "kind": "singleType",
   "collectionName": "privacy_policies",
   "info": {
-    "singularName": "privacy-policy-page",
-    "pluralName": "privacy-policy",
+    "singularName": "privacy-policy",
+    "pluralName": "privacy-policy-list",
     "displayName": "Privacy Policy"
   },
   "options": {
