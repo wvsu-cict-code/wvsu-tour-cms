@@ -1,0 +1,18 @@
+{
+  "kind": "singleType",
+  "collectionName": "privacy_policies",
+  "info": {
+    "singularName": "privacy-policy",
+    "pluralName": "privacy-policy",
+    "displayName": "Privacy Policy"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Contents": {
+      "type": "richtext"
+    }
+  }
+}

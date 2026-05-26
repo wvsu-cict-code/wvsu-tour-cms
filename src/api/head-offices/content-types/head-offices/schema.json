@@ -1,0 +1,52 @@
+{
+  "kind": "collectionType",
+  "collectionName": "head_offices",
+  "info": {
+    "singularName": "head-office",
+    "pluralName": "head-offices",
+    "displayName": "Head Offices"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "FeaturedImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ]
+    },
+    "Campus": {
+      "type": "enumeration",
+      "enum": [
+        "main",
+        "janiuay",
+        "lambunao",
+        "pototan",
+        "himamaylan",
+        "caf",
+        "calinog"
+      ]
+    },
+    "LongDescription": {
+      "type": "text"
+    },
+    "Latitude": {
+      "type": "float"
+    },
+    "Longitude": {
+      "type": "float"
+    },
+    "SortOrder": {
+      "type": "integer"
+    }
+  }
+}

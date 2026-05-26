@@ -10,11 +10,9 @@
     </style>
   </head>
   <body>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.3.0/socket.io.js"></script>
+    <script src="/socket.io/socket.io.js"></script>
     <script>
-      // connect user throught socket
       const socket = io();
-      // listen for event name 'hello' & log it
       socket.on('hello', (res) => console.log(res));
     </script>
   </body>

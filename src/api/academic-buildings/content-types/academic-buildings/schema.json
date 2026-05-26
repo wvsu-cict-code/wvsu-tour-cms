@@ -1,0 +1,46 @@
+{
+  "kind": "collectionType",
+  "collectionName": "academic_buildings",
+  "info": {
+    "singularName": "academic-building",
+    "pluralName": "academic-buildings",
+    "displayName": "Academic Buildings"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "ShortDescription": {
+      "type": "string"
+    },
+    "FeaturedImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ]
+    },
+    "DateAdded": {
+      "type": "datetime"
+    },
+    "Latitude": {
+      "type": "float"
+    },
+    "Longitude": {
+      "type": "float"
+    },
+    "LongDescription": {
+      "type": "text"
+    },
+    "SortOrder": {
+      "type": "integer"
+    }
+  }
+}

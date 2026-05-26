@@ -1,0 +1,52 @@
+{
+  "kind": "collectionType",
+  "collectionName": "office_staffs",
+  "info": {
+    "singularName": "office-staff",
+    "pluralName": "office-staff",
+    "displayName": "Office Staff"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "ProfilePicture": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ]
+    },
+    "Office": {
+      "type": "string"
+    },
+    "Campus": {
+      "type": "enumeration",
+      "enum": [
+        "main",
+        "janiuay",
+        "lambunao",
+        "pototan",
+        "himamaylan",
+        "caf",
+        "calinog"
+      ]
+    },
+    "Description": {
+      "type": "string"
+    },
+    "DateAdded": {
+      "type": "datetime"
+    },
+    "SortOrder": {
+      "type": "integer"
+    }
+  }
+}
