@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "campus_lives",
+  "info": {
+    "singularName": "campus-life",
+    "pluralName": "campus-life",
+    "displayName": "Campus Life"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "ShortDescription": {
+      "type": "string"
+    },
+    "Image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ]
+    },
+    "SortOrder": {
+      "type": "integer"
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "kind": "collectionType",
+  "collectionName": "facilities_and_amenities",
+  "info": {
+    "singularName": "facilities-and-amenities",
+    "pluralName": "facilities-and-amenities",
+    "displayName": "Facilities and Amenities"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "ShortDescription": {
+      "type": "string"
+    },
+    "FeaturedImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ]
+    },
+    "DateAdded": {
+      "type": "datetime"
+    },
+    "Latitude": {
+      "type": "float"
+    },
+    "Longitude": {
+      "type": "float"
+    },
+    "SortOrder": {
+      "type": "integer"
+    }
+  }
+}
