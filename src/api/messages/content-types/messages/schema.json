@@ -2,7 +2,7 @@
   "kind": "collectionType",
   "collectionName": "messages",
   "info": {
-    "singularName": "message",
+    "singularName": "messages",
     "pluralName": "messages",
     "displayName": "Messages"
   },

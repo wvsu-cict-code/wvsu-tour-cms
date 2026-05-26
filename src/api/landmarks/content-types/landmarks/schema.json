@@ -2,7 +2,7 @@
   "kind": "collectionType",
   "collectionName": "landmarks",
   "info": {
-    "singularName": "landmark",
+    "singularName": "landmarks",
     "pluralName": "landmarks",
     "displayName": "Historical and Artistic Landmarks"
   },
