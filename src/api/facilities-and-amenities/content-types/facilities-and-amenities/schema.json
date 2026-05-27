@@ -3,7 +3,7 @@
   "collectionName": "facilities_and_amenities",
   "info": {
     "singularName": "facilities-and-amenities",
-    "pluralName": "facilities-and-amenities",
+    "pluralName": "facilities-and-amenities-list",
     "displayName": "Facilities and Amenities"
   },
   "options": {

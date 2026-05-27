@@ -3,7 +3,7 @@
   "collectionName": "head_offices",
   "info": {
     "singularName": "head-offices",
-    "pluralName": "head-offices",
+    "pluralName": "head-offices-list",
     "displayName": "Head Offices"
   },
   "options": {

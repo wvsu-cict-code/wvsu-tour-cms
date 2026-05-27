@@ -3,7 +3,7 @@
   "collectionName": "campus_lives",
   "info": {
     "singularName": "campus-life",
-    "pluralName": "campus-life",
+    "pluralName": "campus-life-list",
     "displayName": "Campus Life"
   },
   "options": {

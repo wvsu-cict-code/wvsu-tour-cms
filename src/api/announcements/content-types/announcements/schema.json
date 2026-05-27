@@ -3,7 +3,7 @@
   "collectionName": "announcements",
   "info": {
     "singularName": "announcements",
-    "pluralName": "announcements",
+    "pluralName": "announcements-list",
     "displayName": "Announcements"
   },
   "options": {

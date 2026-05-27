@@ -3,7 +3,7 @@
   "collectionName": "landmarks",
   "info": {
     "singularName": "landmarks",
-    "pluralName": "landmarks",
+    "pluralName": "landmarks-list",
     "displayName": "Historical and Artistic Landmarks"
   },
   "options": {

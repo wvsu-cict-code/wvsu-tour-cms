@@ -3,7 +3,7 @@
   "collectionName": "campuses",
   "info": {
     "singularName": "campuses",
-    "pluralName": "campuses",
+    "pluralName": "campuses-list",
     "displayName": "Campuses"
   },
   "options": {

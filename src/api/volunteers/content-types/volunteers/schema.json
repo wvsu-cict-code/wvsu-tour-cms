@@ -3,7 +3,7 @@
   "collectionName": "volunteers",
   "info": {
     "singularName": "volunteers",
-    "pluralName": "volunteers",
+    "pluralName": "volunteers-list",
     "displayName": "Volunteers"
   },
   "options": {

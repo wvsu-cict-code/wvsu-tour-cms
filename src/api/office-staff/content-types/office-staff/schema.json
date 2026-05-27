@@ -3,7 +3,7 @@
   "collectionName": "office_staffs",
   "info": {
     "singularName": "office-staff",
-    "pluralName": "office-staff",
+    "pluralName": "office-staff-list",
     "displayName": "Office Staff"
   },
   "options": {

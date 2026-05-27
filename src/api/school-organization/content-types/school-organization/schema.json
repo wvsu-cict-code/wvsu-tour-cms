@@ -3,7 +3,7 @@
   "collectionName": "school_organizations",
   "info": {
     "singularName": "school-organization",
-    "pluralName": "school-organization",
+    "pluralName": "school-organization-list",
     "displayName": "School Organizations"
   },
   "options": {

@@ -3,7 +3,7 @@
   "collectionName": "messages",
   "info": {
     "singularName": "messages",
-    "pluralName": "messages",
+    "pluralName": "messages-list",
     "displayName": "Messages"
   },
   "options": {
